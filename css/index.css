@@ -184,11 +184,6 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.top h1 {
-  font-size: 45px;
-  display: flex;
-  justify-content: center;
-}
 .top nav a {
   color: gray;
   margin-left: 60px;
@@ -253,4 +248,32 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.top h1 {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .top nav a {
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .space-images .blast {
+    max-width: 100%;
+  }
+  .space-images .sky {
+    display: none;
+  }
+  .space-images .launch {
+    display: none;
+  }
+  .walk {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .btn button {
+    max-width: 100%;
+  }
 }
