@@ -1,3 +1,9 @@
+.top-1 {
+  margin-top: 50px;
+}
+.top nav a {
+  margin-top: 50px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -159,6 +165,19 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.top h1 {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+}
+.top nav a {
+  text-decoration: none;
+  font-size: 20px;
+  display: inline flex;
+  justify-content: center;
+  color: black;
+  margin-left: 70px;
 }
 footer {
   color: #22283B;
