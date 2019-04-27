@@ -1,8 +1,26 @@
 .top-1 {
-  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.top h1 {
+  padding-bottom: 20px;
+}
+.nav-mixin {
+  text-decoration: none;
+  font-size: 20px;
 }
 .top nav a {
-  margin-top: 50px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.btn button {
+  color: white;
+  background: #383838;
+  border-radius: 10%;
+  padding: 12px 10px;
+}
+.btn button:hover {
+  background-color: red;
+  color: blue;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -172,12 +190,8 @@ p {
   justify-content: center;
 }
 .top nav a {
-  text-decoration: none;
-  font-size: 20px;
-  display: inline flex;
-  justify-content: center;
-  color: black;
-  margin-left: 70px;
+  color: gray;
+  margin-left: 60px;
 }
 footer {
   color: #22283B;
