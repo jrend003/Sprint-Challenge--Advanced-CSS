@@ -1,1 +1,35 @@
 // Mixins Here
+.top-1{
+    padding-bottom:20px;
+}
+
+.top h1{
+    .top-1;
+}
+
+.nav-mixin{
+    text-decoration:none;
+    font-size:20px;
+}
+
+.top nav a{
+    .nav-mixin;
+}
+
+.signup-btn (@color,@background,@border-radius){
+    color:@color;
+    background:@background;
+    border-radius:@border-radius;
+    }
+    .btn button{
+        .signup-btn(white,#383838,10%); 
+       padding:12px 10px;   
+    
+    }
+          
+       
+    .btn button:hover{
+        background-color:red;
+        color:blue;
+    }
+    
